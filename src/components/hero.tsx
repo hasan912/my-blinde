@@ -39,7 +39,7 @@ const Hero = () => {
         Stay Social <br />
         Stay You!
     </h1>
-    <p className="text-lg mb-10 max-w-4xl opacity-90">
+    <p className="text-md mb-10 max-w-2xl opacity-90">
         A place where friendships grow, communities thrive, and moments turn into unforgettable experiences. Whether you're looking to reconnect with old friends, build new relationships, or share what matters most to you - **MyBindle is your home on the internet.**
     </p>
     <button className="bg-white text-red-600 font-bold py-3 px-8 rounded-lg shadow-xl hover:bg-gray-100 transition duration-300 transform hover:scale-[1.02]">
@@ -51,7 +51,7 @@ const Hero = () => {
         <div className="relative flex justify-center lg:justify-end w-full lg:w-auto h-full z-10 lg:py-12">
           
           {/* Mockup Phone Structure (Fixed size for visual impact) */}
-          <div className="w-72 sm:w-80 aspect-[9/16] bg-black rounded-[3rem] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] relative border-[6px] border-black overflow-hidden transform lg:scale-110 xl:scale-125">
+          <div className="w-72 sm:w-80 aspect-[9/16] bg-black rounded-[3rem] shadow-[0_25px_50px_-12px_rgba(0,0,0,0.5)] relative border-[4px] border-black overflow-hidden transform lg:scale-110 xl:scale-125 ">
             
             {/* Phone Screen Content */}
             <div className="w-full h-full bg-white relative">
