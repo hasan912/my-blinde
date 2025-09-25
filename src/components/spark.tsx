@@ -15,8 +15,8 @@ export default function HeroSection() {
               <Image
                 src="/image4.png"
                 alt="Mobile app mockups showing social media interface"
-                width={500}
-                height={400}
+                width={600}
+                height={500}
                 className="w-full h-auto"
                 priority
               />
