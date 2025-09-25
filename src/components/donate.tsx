@@ -25,7 +25,7 @@ export default function donate() {
           </div>
 
           {/* Right side - Mobile mockups */}
-          <div className="relative  lg:flex justify-center items-center h-[500px]">
+          <div className="relative  hidden lg:flex justify-center items-center h-[500px]">
             {/* Left Phone - Payment Methods (positioned behind and to the left) */}
             <div className="absolute -left-10 top-45 bg-white border-t-3 border-r-3 border-l-3 rounded-t-[70px] p-4 shadow-2xl w-80 h-[384px] z-10 transform ">
               {/* Phone frame */}
