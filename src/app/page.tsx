@@ -1,20 +1,21 @@
-import { CardHoverEffectDemo } from "@/components/feature"
+// import FeaturesSection, { CardHoverEffectDemo } from "@/components/feature"
 import Hero from "@/components/hero"
 import HeroSection from "@/components/spark"
 import install from "@/components/install"
 import donate from "@/components/donate"
-import {testinomial} from "@/components/testinomial"
+import TestimonialsSection from "@/components/testinomial"
 import footer from "@/components/footer"
+import FeaturesSection from "@/components/feature"
 
 const page = () => {
   return (
   <>
   <Hero/>
-{CardHoverEffectDemo()}
+<FeaturesSection/>
 <HeroSection/>
 {install()}
 {donate()}
-{testinomial()}
+<TestimonialsSection/>
 {footer()}
   </>
   )

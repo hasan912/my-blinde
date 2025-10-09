@@ -1,6 +1,8 @@
+import Image from "next/image"
+
 export default function donate() {
   return (
-    <section className="relative bg-gradient-to-r from-red-500 to-red-400 py-16 px-6 lg:px-8">
+    <section className="relative bg-gradient-to-r from-red-500 to-red-400 py-16 px-6 lg:ml-10 lg:mr-2  rounded-4xl lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
@@ -31,17 +33,17 @@ export default function donate() {
               {/* Phone frame */}
               <div className="bg-gray-100 rounded-2xl h-full p-4 relative">
                 {/* Status bar */}
-                <div className="flex justify-between items-center mb-4">
+                <div className="flex justify-between items-center mb-2">
                   <div className="flex space-x-1">
                     <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
                     <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
                     <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
                   </div>
-                  <div className="w-15 h-6 bg-black rounded-full flex items-center justify-center">
+                  <div className="w-15 h-1 -mt-15 bg-black rounded-full flex items-center justify-center">
                     
                   </div>
-                  <div className="w-8 h-6 bg-blue-500 rounded"></div>
-                </div>
+                 <div className="w-8 h-10 rounded"><Image src={'/image3.png'} className="rounded" height={50} width={100} alt="logo"/></div>
+                 </div>
 
                 {/* Header */}
                 <div className="flex items-center mb-6">
@@ -108,71 +110,19 @@ export default function donate() {
                     <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
                     <div className="w-1 h-1 bg-gray-400 rounded-full"></div>
                   </div>
-                  <div className="w-15 h-6 bg-black rounded-full flex items-center justify-center">
+                  <div className="w-15 h-1 -mt-15 bg-black rounded-full flex items-center justify-center">
                    
                   </div>
-                  <div className="w-8 h-6 bg-blue-500 rounded"></div>
+                  <div className="w-8 h-10 rounded"><Image src={'/image3.png'} className="rounded" height={50} width={100} alt="logo"/></div>
                 </div>
 
                 {/* Heart with gems */}
                 <div className="flex-1 flex flex-col items-center justify-center space-y-6">
                   <div className="relative">
                     {/* Heart shape made of colorful gems */}
-                    <div className="grid grid-cols-7 gap-1 transform rotate-45">
-                      {/* Top row */}
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
-                      <div className="w-3 h-3"></div>
-
-                      {/* Second row */}
-                      <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-pink-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-orange-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-cyan-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-
-                      {/* Third row */}
-                      <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-pink-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-orange-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-cyan-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-
-                      {/* Fourth row */}
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-purple-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-yellow-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-pink-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-orange-400 rounded-full"></div>
-                      <div className="w-3 h-3"></div>
-
-                      {/* Fifth row */}
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3 bg-cyan-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-red-400 rounded-full"></div>
-                      <div className="w-3 h-3 bg-blue-400 rounded-full"></div>
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3"></div>
-
-                      {/* Sixth row */}
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3"></div>
-                      <div className="w-3 h-3"></div>
-                    </div>
+                   <div className="flex justify-center items-center"> {/* Optional: Center the image */}
+  <Image src={"/gem.png"} height={400} width={400} alt="Gem Heart" />
+</div>
                   </div>
 
                   {/* Thank you text */}
