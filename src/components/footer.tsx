@@ -34,7 +34,7 @@ export default function footer() {
           {/* Right side - Mobile mockups */}
           <div className="relative hidden lg:flex justify-center items-center h-[500px]">
             {/* Left Phone - Payment Methods (positioned behind and to the left) */}
-            <div className="absolute -left-10 top-[385px] bg-white border-t-3 border-r-3 border-l-3 rounded-t-[70px] p-4 shadow-2xl w-80 h-[180px] z-10 transform ">
+            <div className="absolute -left-13 top-[385px] bg-white border-t-3 border-r-3 border-l-3 rounded-t-[70px] p-4 shadow-2xl w-80 h-[180px] z-10 transform ">
               {/* Phone frame */}
               <div className="p-3 flex items-center justify-between text-xs text-gray-800 border-b">
                 <span className="font-semibold">9:41</span>
@@ -66,7 +66,7 @@ export default function footer() {
             </div>
 
             {/* Right Phone - Thank You Screen (positioned in front and to the right) */}
-            <div className="absolute -right-4 top-41 bg-white rounded-t-[70px] border-t-3 border-r-3 border-l-3 p-4 shadow-2xl w-85 h-[400px] z-20 transform">
+            <div className="absolute -right-7 top-41 bg-white rounded-t-[70px] border-t-3 border-r-3 border-l-3 p-4 shadow-2xl w-85 h-[400px] z-20 transform">
               {/* Phone frame */}
               <div className="p-3 flex items-center justify-between text-xs text-gray-800 border-b">
                 <span className="font-semibold">9:41</span>
