@@ -71,11 +71,11 @@ const Hero: React.FC = () => {
         <div className="relative w-[320px] h-[450px] lg:w-[400px] lg:h-[600px] mt-10 lg:mt-0"> 
           
           {/* Floating Labels: Adjusted positioning relative to the phone */}
-          <FloatingButton className="absolute -top-2 -left-16" icon={<span>🔥</span>}>
+          <FloatingButton className="absolute top-10 -left-16" icon={<span>🔥</span>}>
              Seamless Connections
           </FloatingButton>
           
-          <FloatingButton className="absolute -bottom-1 -right-10" icon={<span>🌍</span>}>
+          <FloatingButton className="absolute bottom-20 right-3" icon={<span>🌍</span>}>
              Discover & Explore
           </FloatingButton>
 
