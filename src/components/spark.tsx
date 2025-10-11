@@ -13,7 +13,7 @@ export default function HeroSection() {
             {/* Mobile mockups */}
             <div className="relative z-10">
               <Image
-                src="/group1.png"
+                src="/Group1.png"
                 alt="Mobile app mockups showing social media interface"
                 width={600}
                 height={500}
