@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
         <div className="relative w-[320px] h-[450px] lg:w-[400px] lg:h-[600px] mt-10 lg:mt-0"> 
           
           {/* Floating Labels: Adjusted positioning relative to the phone */}
-          <FloatingButton className=" hidden lg:absolute lg:top-10 lg:-left-16" icon={<span>🔥</span>}>
+          <FloatingButton className=" absolute top-10 lg:-left-16" icon={<span>🔥</span>}>
              Seamless Connections
           </FloatingButton>
           
