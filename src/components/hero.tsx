@@ -81,7 +81,7 @@ const Hero: React.FC = () => {
 
           {/* Image Mockup: Replaced Image with <img> and used max-height for better fit */}
           <img
-            src="/group.png"
+            src="/Group.png"
             alt="MyBindle App Mockup"
             // w-full h-full ensures the image fills the container, object-contain prevents cropping.
             className="w-full h-full object-contain"
